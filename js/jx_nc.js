@@ -19,7 +19,7 @@ hostname = wq.jd.com
 =========================Loon=============================
 [Script]
 http-request ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=3600, tag=京喜农场cookie
-cron "0 9,12,18 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jxnc.js,tag=京喜农场
+cron "0 9,12,18 * * *" script-path=https://raw.githubusercontent.com/jiange146/zhongzhuan/master/js/jd_jxnc.js,tag=京喜农场
 =========================Surge============================
 京喜农场 = type=cron,cronexp="0 9,12,18 * * *",timeout=3600,script-path=https://raw.githubusercontent.com/jiange146/zhongzhuan/master/js/jd_jxnc.js
 京喜农场cookie = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,requires-body=0,max-size=0,script-path= https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
